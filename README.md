@@ -16,18 +16,35 @@ The project operates within the Property & Casualty Insurance sector. This indus
 - Operational inefficiency: adjusters spend time on low-risk claims while high-value fraudulent claims slip through.
 - Lack of centralized visibility into factors like incident severity, demographics, and age correlating with financial losses.
 
-## Included Files
+## Project Structure
 
-- Car Insurance Claims Fraud & Cost Analysis.pdf
-- Data/insurance_fraud_data.csv
-- Data/insurance_fraud_data_cleaned.csv
-- Data Preparation.ipynb
+Project files and folders (top-level):
+
+```
+├── Car Insurance Claims Fraud & Cost Analysis.pdf
+├── Data/
+│   ├── insurance_fraud_data.csv
+│   └── insurance_fraud_data_cleaned.csv
+├── Data Preparation.ipynb
+└── Data Modeling/
+	├── MODELISATION.pbix
+	├── model_diagram.png
+	└── Measure Definitions.xlsx
+```
 
 ## Notebooks and Data
 
 - `Data Preparation.ipynb`: exploratory analysis and experiments
 - `Data/insurance_fraud_data_cleaned.csv`: cleaned dataset ready for modeling
 - `Data/insurance_fraud_data.csv`: raw dataset
+
+## Data Modeling
+
+The `Data Modeling/` folder contains the Power BI model, measurements, and a diagram illustrating the model relationships.
+
+Model diagram:
+
+![Model diagram](Data%20Modelling/model_diagram.png)
 
 ## How to Use
 
