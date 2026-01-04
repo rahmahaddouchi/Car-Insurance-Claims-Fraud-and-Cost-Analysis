@@ -44,7 +44,7 @@ The `Data Modeling/` folder contains the Power BI model, measurements, and a dia
 
 Model diagram:
 
-![Model diagram](Data%20Modelling/model_diagram.png)
+![Model diagram](Data%20Modeling/model_diagram.png)
 
 ## How to Use
 
